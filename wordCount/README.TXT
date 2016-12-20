@@ -99,15 +99,14 @@ DATA STRUCTURES AND ALGORITHMS/COMPLEXITY:
 	Node object contains a string and an int count
 	Nodes are contained in a hashMap data structure
 	The key of the hashmap is a String and the value is a Node
-	Inserting a new Node into the hashmap is complexity O(1) (put)
+	Inserting a new Node into the hashmap is complexity O(N) (put)
 	Accessing an element in the hashmap is complexity O(1) (get)
 	
 	I choose to use a hashmap data structure because of the cheap cost
 	of both accessing and inserting elements. I simply used the unique
 	String values from the input files as the keys and my own Node
 	data structure as the value (which implements cloneable). Assuming good
-	implementation of hashmap from the java library, the complexity
-	for accessing and inserting is O(1). This makes my program very fast.
+	implementation of hashmap, this makes my program very fast.
 	
 
 EXTRA CREDIT:
